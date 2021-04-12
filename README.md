@@ -1,1 +1,1 @@
-# ideawu
+Author Platform NoSQL License
