@@ -13,7 +13,7 @@ Software Engineering
 Namespaces are a feature of the Linux kernel that partitions kernel resources such that one set of processes sees one set of resources while another set of processes sees a different set of resources. 
 
 Example:
-We have two people with the same first name Mahbub Hasan and  Mahbub Hassan but we can differentiate them on the basis of their surname Hasan and Hassan. So you can think surname as a namespace.
+  We have two people with the same first name Mahbub Hasan and  Mahbub Hassan but we can differentiate them on the basis of their surname Hasan and Hassan. So you can think        surname as a namespace.
 
 In Linux, namespaces are used to provide isolation for objects from other objects. So that anything will happen in namespaces will remain in that particular namespace and doesn’t affect other objects of other namespaces. For example: - we can have the same type of objects in different namespaces as they are isolated from each other.
 
