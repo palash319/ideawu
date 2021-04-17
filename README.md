@@ -32,4 +32,4 @@ Socket Binding
 
 Socket binding is the process of binding a socket to a network address within the system and an address is the combination of an IP address and a port number when a socket is bound the server can accept client connections.
 
-![alt text](https://github.com/[username]/[ideawu]/edit/[main]/Socket_server.png?raw=true)
+![alt text](https://github.com/[username]/[ideawu]/Socket_server.png?raw=true)
