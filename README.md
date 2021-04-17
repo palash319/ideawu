@@ -1,11 +1,18 @@
-ICA-Infrastructure as a Code
+#Keyword
+
+**ICA-Infrastructure as a Code**
 
    Infrastructure as Code (IaC) is the management of infrastructure (networks, virtual machines, load balancers, and connection topology) in a descriptive model, using the same    versioning as DevOps team uses for source code. Like the principle that the same source code generates the same binary, an IaC model generates the same environment every        time it is applied. IaC is a key DevOps practice and is used in conjunction with continuous delivery.
   
- CI/CD
- Networking
- Cloud Networking
- Software Engineering
+ **CI/CD**
+ 
+ **Networking**
+ 
+ **Cloud Networking**
+ 
+ **Software Engineering**
+
+#**Namespace**
 
 Namespaces are a feature of the Linux kernel that partitions kernel resources such that one set of processes sees one set of resources while another set of processes sees a different set of resources. 
 
@@ -19,13 +26,13 @@ These namespace provide a layer of isolation. Each aspect of a container runs in
 
 Docker engine uses namespace such as the following on Linux:
 
-1.	Mount (MNT): Controls mount points. When new namespaces are created the current mounts are copied to a new namespace.
-2.	Process ID (PID): Provides processes with process IDs from other namespaces.
-3.	Interprocess Communication (IPC): Prevents processes in different IPC namespaces from forming SHM functions.
-4.	Network (NET): Virtualizes network stack.
-5.	UNIX Time Sharing (UTS): This allows a system to have different host and domain names for various processes.
+	Mount (MNT): Controls mount points. When new namespaces are created the current mounts are copied to a new namespace.
+	Process ID (PID): Provides processes with process IDs from other namespaces.
+	Interprocess Communication (IPC): Prevents processes in different IPC namespaces from forming SHM functions.
+	Network (NET): Virtualizes network stack.
+	UNIX Time Sharing (UTS): This allows a system to have different host and domain names for various processes.
 
-Socket Binding
+**Socket Binding**
 
 Socket binding is the process of binding a socket to a network address within the system and an address is the combination of an IP address and a port number when a socket is bound the server can accept client connections.
 
@@ -37,7 +44,8 @@ Host Namespace:
       Network Namespace:
       
 
-ARP (Address Resolution Protocol):
+**ARP (Address Resolution Protocol):**
+
 1.	ARP (Address Resolution Protocol) is a network protocol used to find out the hardware (MAC) address of a device from an IP address. 
 2.	It is used when a device wants to communicate with some other device on a local network.
 3.	IP datagram contains IP addresses, but the physical interface hardware on the host or router need an addressing scheme (Physical Addressing) of a particular network to send a packet. 
@@ -65,27 +73,27 @@ ARP (Address Resolution Protocol):
 
 ![alt text](https://github.com/palash319/ideawu/blob/main/arp.jpg?raw=true)
 		
-HardwareType (16 bit) - Specifies the type of physical network (eg. 1 – for Ethernet) 
+	HardwareType (16 bit) - Specifies the type of physical network (eg. 1 – for Ethernet) 
 
-Protocol Type (16 bit) - Specifies the higher layer protocol. (Value is 2048 for IP)
+	Protocol Type (16 bit) - Specifies the higher layer protocol. (Value is 2048 for IP)
 
-HLen (8 bit) - Hardware Address Length–Specifies the length of the link layer address (PhysicalAddress) 
+	HLen (8 bit) - Hardware Address Length–Specifies the length of the link layer address (PhysicalAddress) 
 
-PLen (8 bit) - Protocol Address Length – Specifies the length of the higher layer protocol address (IP Address)
+	PLen (8 bit) - Protocol Address Length – Specifies the length of the higher layer protocol address (IP Address)
 
-Operation or opcode (16 bit) - specifies whether this is a request or a response. 
+	Operation or opcode (16 bit) - specifies whether this is a request or a response. 
 
-Sender Hardware Address (48 bit) - specifies the link level layer or physical address of the sender. 
+	Sender Hardware Address (48 bit) - specifies the link level layer or physical address of the sender. 
 
-Sender Protocol Address (32 bit) – Specifies the higher layer address (IP Address) of the sender.
+	Sender Protocol Address (32 bit) – Specifies the higher layer address (IP Address) of the sender.
 
-Target Hardware Address (48 bit) - specifies the link level layer or physical address of the target host. • Target Protocol Address (32 bit) - Specifies the higher layer address (IP Address) of the target host.
+	Target Hardware Address (48 bit) - specifies the link level layer or physical address of the target host. • Target Protocol Address (32 bit) - Specifies the higher layer address (IP Address) of the target host.
 
-CIDR:
+**CIDR:**
 
 Classless inter-domain routing (CIDR) is a set of Internet protocol (IP) standards that is used to create unique identifiers for networks and individual devices. The IP addresses allow particular information packets to be sent to specific computers.
 
-Route Table
+**Route Table**
 
 A routing table is a set of rules, often viewed in table format that is used to determine where data packets traveling over an Internet Protocol (IP) network will be directed. All IP-enabled devices, including routers and switches, use routing tables. See below a Routing Table:
 
@@ -101,19 +109,19 @@ The entry corresponding to the default gateway configuration is a network destin
 
 Each entry in the routing table consists of the following entries:
 
-Network ID:
+**Network ID:**
 	The network ID or destination corresponding to the route.
 
-Subnet Mask:
+**Subnet Mask:**
 	The mask that is used to match a destination IP address to the network ID.
 
-Next Hop:
+**Next Hop:**
 	The IP address to which the packet is forwarded
 	
-Outgoing Interface:
+**Outgoing Interface:**
 	Outgoing interface the packet should go out to reach the destination network.
 
-Metric:
+**Metric:**
 	A common use of the metric is to indicate the minimum number of hops (routers crossed) to the network ID.
 	
 Routing table entries can be used to store the following types of routes:
