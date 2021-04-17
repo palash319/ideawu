@@ -3,11 +3,8 @@ ICA-Infrastructure as a Code
    Infrastructure as Code (IaC) is the management of infrastructure (networks, virtual machines, load balancers, and connection topology) in a descriptive model, using the same    versioning as DevOps team uses for source code. Like the principle that the same source code generates the same binary, an IaC model generates the same environment every        time it is applied. IaC is a key DevOps practice and is used in conjunction with continuous delivery.
   
 CI/CD
-
 Networking
-
 Cloud Networking
-
 Software Engineering
 
 Namespaces are a feature of the Linux kernel that partitions kernel resources such that one set of processes sees one set of resources while another set of processes sees a different set of resources. 
@@ -32,7 +29,7 @@ Socket Binding
 
 Socket binding is the process of binding a socket to a network address within the system and an address is the combination of an IP address and a port number when a socket is bound the server can accept client connections.
 
-		![alt text](https://github.com/palash319/ideawu/blob/main/Socket_server.png?raw=true)
+![alt text](https://github.com/palash319/ideawu/blob/main/Socket_server.png?raw=true)
 
 Host Namespace: 
 
@@ -66,7 +63,7 @@ ARP (Address Resolution Protocol):
     
     •	When a sender broadcasts the ARP query, each host on the network can learn the physical address of the sender from the query message and update or add the mapping into the       table.
 
-		![alt text](https://github.com/palash319/ideawu/blob/main/arp.jpg?raw=true)
+![alt text](https://github.com/palash319/ideawu/blob/main/arp.jpg?raw=true)
 		
 HardwareType (16 bit) - Specifies the type of physical network (eg. 1 – for Ethernet) 
 Protocol Type (16 bit) - Specifies the higher layer protocol. (Value is 2048 for IP) 
@@ -87,7 +84,7 @@ A routing table is a set of rules, often viewed in table format that is used to 
 		 128.75.43.0      255.255.255.0       Eth0
 		 128.75.43.0      255.255.255.128     Eth1
 		 192.12.17.5      255.255.255.255     Eth3
-		 default                          	           Eth2
+		 default                              Eth2
 		 
 The entry corresponding to the default gateway configuration is a network destination of 0.0.0.0 with a network mask (netmask) of 0.0.0.0. The Subnet Mask of default route is always 255.255.255.255 .
 
