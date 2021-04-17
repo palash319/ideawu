@@ -1,4 +1,4 @@
-#Keyword
+#**Keyword**
 
 **ICA-Infrastructure as a Code**
 
@@ -38,7 +38,7 @@ Socket binding is the process of binding a socket to a network address within th
 
 ![alt text](https://github.com/palash319/ideawu/blob/main/Socket_server.png?raw=true)
 
-Host Namespace: 
+**Host Namespace:** 
 
       File Namespace: 
       Network Namespace:
