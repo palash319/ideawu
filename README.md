@@ -148,6 +148,8 @@ The loopback interface is a virtual interface. The only purpose of the loopback 
 Maximum transmission unit (MTU) is the size of the largest protocol data unit (PDU) that can be communicated in a single network layer transaction. The MTU relates to, but is not identical to the maximum frame size that can be transported on the data link layer. Larger MTU is associated with reduced overhead. Smaller MTU values can reduce network delay.
 
 **DNS**
+
 **DNS Query**
+
 **DNS Resolve**
 
