@@ -2,10 +2,10 @@ ICA-Infrastructure as a Code
 
    Infrastructure as Code (IaC) is the management of infrastructure (networks, virtual machines, load balancers, and connection topology) in a descriptive model, using the same    versioning as DevOps team uses for source code. Like the principle that the same source code generates the same binary, an IaC model generates the same environment every        time it is applied. IaC is a key DevOps practice and is used in conjunction with continuous delivery.
   
-CI/CD
-Networking
-Cloud Networking
-Software Engineering
+ CI/CD
+ Networking
+ Cloud Networking
+ Software Engineering
 
 Namespaces are a feature of the Linux kernel that partitions kernel resources such that one set of processes sees one set of resources while another set of processes sees a different set of resources. 
 
@@ -66,18 +66,27 @@ ARP (Address Resolution Protocol):
 ![alt text](https://github.com/palash319/ideawu/blob/main/arp.jpg?raw=true)
 		
 HardwareType (16 bit) - Specifies the type of physical network (eg. 1 – for Ethernet) 
-Protocol Type (16 bit) - Specifies the higher layer protocol. (Value is 2048 for IP) 
+
+Protocol Type (16 bit) - Specifies the higher layer protocol. (Value is 2048 for IP)
+
 HLen (8 bit) - Hardware Address Length–Specifies the length of the link layer address (PhysicalAddress) 
+
 PLen (8 bit) - Protocol Address Length – Specifies the length of the higher layer protocol address (IP Address)
+
 Operation or opcode (16 bit) - specifies whether this is a request or a response. 
+
 Sender Hardware Address (48 bit) - specifies the link level layer or physical address of the sender. 
+
 Sender Protocol Address (32 bit) – Specifies the higher layer address (IP Address) of the sender.
+
 Target Hardware Address (48 bit) - specifies the link level layer or physical address of the target host. • Target Protocol Address (32 bit) - Specifies the higher layer address (IP Address) of the target host.
 
 CIDR:
+
 Classless inter-domain routing (CIDR) is a set of Internet protocol (IP) standards that is used to create unique identifiers for networks and individual devices. The IP addresses allow particular information packets to be sent to specific computers.
 
 Route Table
+
 A routing table is a set of rules, often viewed in table format that is used to determine where data packets traveling over an Internet Protocol (IP) network will be directed. All IP-enabled devices, including routers and switches, use routing tables. See below a Routing Table:
 
 		 Destination      Subnet mask         Interface
