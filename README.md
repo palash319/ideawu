@@ -1,11 +1,17 @@
 ICA-Infrastructure as a Code
-  -Infrastructure as Code (IaC) is the management of infrastructure (networks, virtual machines, load balancers, and connection topology) in a descriptive model, using the same      versioning as DevOps team uses for source code. Like the principle that the same source code generates the same binary, an IaC model generates the same environment every time      it is applied. IaC is a key DevOps practice and is used in conjunction with continuous delivery.
+
+  -Infrastructure as Code (IaC) is the management of infrastructure (networks, virtual machines, load balancers, and connection topology) in a descriptive model, using the same    versioning as DevOps team uses for source code. Like the principle that the same source code generates the same binary, an IaC model generates the same environment every        time it is applied. IaC is a key DevOps practice and is used in conjunction with continuous delivery.
+  
 CI/CD
+
 Networking
+
 Cloud Networking
+
 Software Engineering
 
 Namespaces are a feature of the Linux kernel that partitions kernel resources such that one set of processes sees one set of resources while another set of processes sees a different set of resources. 
+
 Example:
 We have two people with the same first name Mahbub Hasan and  Mahbub Hassan but we can differentiate them on the basis of their surname Hasan and Hassan. So you can think surname as a namespace.
 
