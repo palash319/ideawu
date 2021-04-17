@@ -32,7 +32,7 @@ Socket Binding
 
 Socket binding is the process of binding a socket to a network address within the system and an address is the combination of an IP address and a port number when a socket is bound the server can accept client connections.
 
-![alt text](https://github.com/palash319/ideawu/blob/main/Socket_server.png?raw=true)
+		![alt text](https://github.com/palash319/ideawu/blob/main/Socket_server.png?raw=true)
 
 Host Namespace: 
 
@@ -66,4 +66,55 @@ ARP (Address Resolution Protocol):
     
     •	When a sender broadcasts the ARP query, each host on the network can learn the physical address of the sender from the query message and update or add the mapping into the       table.
 
-![alt text](https://github.com/palash319/ideawu/blob/main/arp.jpg?raw=true)
+		![alt text](https://github.com/palash319/ideawu/blob/main/arp.jpg?raw=true)
+		
+HardwareType (16 bit) - Specifies the type of physical network (eg. 1 – for Ethernet) 
+Protocol Type (16 bit) - Specifies the higher layer protocol. (Value is 2048 for IP) 
+HLen (8 bit) - Hardware Address Length–Specifies the length of the link layer address (PhysicalAddress) 
+PLen (8 bit) - Protocol Address Length – Specifies the length of the higher layer protocol address (IP Address)
+Operation or opcode (16 bit) - specifies whether this is a request or a response. 
+Sender Hardware Address (48 bit) - specifies the link level layer or physical address of the sender. 
+Sender Protocol Address (32 bit) – Specifies the higher layer address (IP Address) of the sender.
+Target Hardware Address (48 bit) - specifies the link level layer or physical address of the target host. • Target Protocol Address (32 bit) - Specifies the higher layer address (IP Address) of the target host.
+
+CIDR:
+Classless inter-domain routing (CIDR) is a set of Internet protocol (IP) standards that is used to create unique identifiers for networks and individual devices. The IP addresses allow particular information packets to be sent to specific computers.
+
+Route Table
+A routing table is a set of rules, often viewed in table format that is used to determine where data packets traveling over an Internet Protocol (IP) network will be directed. All IP-enabled devices, including routers and switches, use routing tables. See below a Routing Table:
+
+		 Destination      Subnet mask         Interface
+		 128.75.43.0      255.255.255.0       Eth0
+		 128.75.43.0      255.255.255.128     Eth1
+		 192.12.17.5      255.255.255.255     Eth3
+		 default                          	           Eth2
+		 
+The entry corresponding to the default gateway configuration is a network destination of 0.0.0.0 with a network mask (netmask) of 0.0.0.0. The Subnet Mask of default route is always 255.255.255.255 .
+
+
+
+Each entry in the routing table consists of the following entries:
+
+Network ID:
+	The network ID or destination corresponding to the route.
+
+Subnet Mask:
+	The mask that is used to match a destination IP address to the network ID.
+
+Next Hop:
+	The IP address to which the packet is forwarded
+	
+Outgoing Interface:
+	Outgoing interface the packet should go out to reach the destination network.
+
+Metric:
+	A common use of the metric is to indicate the minimum number of hops (routers crossed) to the network ID.
+	
+Routing table entries can be used to store the following types of routes:
+
+	Directly Attached Network IDs
+	Remote Network IDs
+	Host Routes
+	Default Route
+	Destination
+
