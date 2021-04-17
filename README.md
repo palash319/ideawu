@@ -137,3 +137,4 @@ Routing table entries can be used to store the following types of routes:
 
 The OSI Model is a logical and conceptual model that defines network communication used by systems open to interconnection and communication with other systems. The Open System Interconnection (OSI Model) also defines a logical network and effectively describes computer packet transfer by using various layers of protocols.
 
+![alt text](https://github.com/palash319/ideawu/blob/main/osi.png?raw=true)
