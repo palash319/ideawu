@@ -29,4 +29,7 @@ Docker engine uses namespace such as the following on Linux:
 5.	UNIX Time Sharing (UTS): This allows a system to have different host and domain names for various processes.
 
 Socket Binding
+
 Socket binding is the process of binding a socket to a network address within the system and an address is the combination of an IP address and a port number when a socket is bound the server can accept client connections.
+
+![alt text](https://github.com/[username]/[ideawu]/edit/[main]/Socket_server.png?raw=true)
