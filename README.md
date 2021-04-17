@@ -65,3 +65,5 @@ ARP (Address Resolution Protocol):
     •	A host with that IP address sends a response message that contains the physical address of that host to the originator.
     
     •	When a sender broadcasts the ARP query, each host on the network can learn the physical address of the sender from the query message and update or add the mapping into the       table.
+
+![alt text](https://github.com/palash319/ideawu/blob/main/arp.jpg?raw=true)
