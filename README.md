@@ -138,3 +138,16 @@ Routing table entries can be used to store the following types of routes:
 The OSI Model is a logical and conceptual model that defines network communication used by systems open to interconnection and communication with other systems. The Open System Interconnection (OSI Model) also defines a logical network and effectively describes computer packet transfer by using various layers of protocols.
 
 ![alt text](https://github.com/palash319/ideawu/blob/main/osi.png?raw=true)
+
+**Loopback Address**
+
+The loopback interface is a virtual interface. The only purpose of the loopback interface is to return the packets sent to it, i.e. whatever you send to it is received on the interface. It makes little sense to put a default route on the loopback interface, because the only place it can send packets to is the imaginary piece of wire that is looped from the output of the interface to the input. There is nothing that can change this behaviour of the loopback interface.
+
+**MTU**
+
+Maximum transmission unit (MTU) is the size of the largest protocol data unit (PDU) that can be communicated in a single network layer transaction. The MTU relates to, but is not identical to the maximum frame size that can be transported on the data link layer. Larger MTU is associated with reduced overhead. Smaller MTU values can reduce network delay.
+
+**DNS**
+**DNS Query**
+**DNS Resolve**
+
